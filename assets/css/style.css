@@ -1,0 +1,289 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.header_top{padding: 12px 0; border-bottom: 1px solid #dbdcdd; border-width: 100%;}
+
+.header{position: relative;}
+.icons{position: fixed; top: 15%; left: 0; z-index: 3;}
+.header_text h2{color: #212529; font-family: 'Poppins', sans-serif; font-weight: 600; line-height: normal;}
+.english{color: #212529; font-family: 'Poppins', sans-serif; font-weight: 600; line-height: normal;}
+.english_dropdown{border-right: 1px solid #dbdcdd; margin-right: 11px;}
+.dropdown-item a:hover{color: #999;}
+.english_dropdown, .social_icons{display: inline-block; vertical-align: top;}
+.english_dropdown{padding-right: 20px;}
+.social_icons ul{}
+.social_icons ul li{list-style: none; display: inline-block; padding-right: 6px;}
+.social_icons ul li:last-child{padding-right: 0px;}
+.social_icons ul li a{font-size: 12px;}
+.fa-brands{color: #212529;}
+.facebook{width: 28px; height: 28px; text-align: center; border-radius: 50%; display: block;  padding: 8px 0;}
+.facebook:hover{background: #3b5a9a; color: #fff;}
+.facebook:hover i{color: #fff;}
+.twitter{width: 28px; height: 28px; text-align: center; border-radius: 50%; display: block;  padding: 8px 0;}
+.twitter:hover{background: #70b8ff; color: #fff;}
+.twitter:hover i{color: #fff;}
+.linkedin{width: 28px; height: 28px; text-align: center; border-radius: 50%; display: block; padding: 8px 0;}
+.linkedin:hover{background: #3085d9; color: #fff;}
+.linkedin:hover i{color: #fff;}
+.eng_social, .navigation_all{display: flex; justify-content: flex-end;}
+
+.header_bottom{padding: 30px 0;}
+.navigation ul{}
+.navigation ul li{list-style: none; display: inline-block; vertical-align: top; padding-right: 26px;}
+.navigation ul li a{color: #444; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 16px; line-height: normal; text-decoration: none; 
+	text-transform: capitalize; display: inline-block;}
+	.navigation ul li:last-child{padding-right: 45px;}
+.navigation_all{display: flex;}
+.navigation ul li a:hover{color: #013160;}
+.call_icon, .call_details, .call{display: inline-block; vertical-align: top;}
+.call_details h2{color: #777;  font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 11px; line-height: normal;}
+.call_details a{color: #333;  font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 16px; line-height: normal; text-decoration: none; display: inline-block;}
+.call_details a:hover{color: #013160;}
+
+
+ 
+.banner_pic img{width: 100%; display: block;}
+.banner{position: relative;}
+.banner_info{position: absolute; top: 33%; left: 16%;}
+.banner_info h2{color: #777; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 25px; line-height: normal; padding-bottom: 18px;
+text-transform: capitalize;}
+.banner_info p{color: #212529; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 42px; line-height: normal; padding-bottom: 28px;
+text-transform: capitalize;}
+.banner_info a{color: #fff; background: #013160; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 12px; line-height: normal;
+text-decoration: none; text-transform: uppercase; padding: 20px 38px; display: inline-block;}
+.banner_info a:hover{background: #096ac9;}
+
+.icons ul li{list-style: none; padding-bottom: 5px;}
+.fa-solid{color: #fff;}
+.settings{background: #151719; width: 40px; height: 40px; border-radius: 0 5px 5px 0; text-align: center; display: block; padding: 10px 0;}
+
+
+
+.below_banner{background: #212529; padding: 38px 0;}
+.below_text{display: inline-block;}
+.below_text p{color: #fff; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 23px; line-height: normal; padding-bottom: 10px;}
+.below_text h2{color: #fff; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 15px; line-height: normal;}
+
+.below_all{display: flex; justify-content: space-between;}
+.get_a_quote{justify-content: flex-end; margin-top: 14px;}
+.get_a_quote a{color: #000; background: #fff; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 17px; line-height: normal; 
+	padding: 20px 38px; text-transform: uppercase; text-decoration: none;}
+.get_a_quote a:hover{color: #fff; background: #023261;}
+
+
+.investment_details{padding: 0 20px;}
+.investment_pic {text-align: right;}
+.investment_pic img{display: block; width: 100%; height: 100%; max-width: 100%;}
+.investment_details h2{color: #777; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 16px; line-height: normal; padding-bottom: 10px;}
+.investment_details h3{color: #212529; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 32px; line-height: normal; padding-bottom: 36px;}
+.investment_details p{color: #777; font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 15px; line-height: normal; padding-bottom: 36px;}
+.investment_details a{color: #212529; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 12px; line-height: normal; padding: 20px 48px;
+text-transform: uppercase; text-decoration: none; display: inline-block; border: 1px solid #dee2e6;}
+.investment_details a:hover{color: #fff; background: #023261; border: none;}
+
+
+.meet_proto{background: url(../images/meet_background.jpg); background-repeat: no-repeat; background-position: top center; background-size: cover;
+width: 100%; z-index: 2; position: relative; padding: 98px 0;}
+.overlay{background: #0e3c68;opacity: 0.95; position: absolute; width: 100%; height: 100%; z-index: -1; top: 0; left: 0;}
+.meet_info, .meet_counting_all{text-align: center;}
+.meet_info h2{color: #fff; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 18px; line-height: normal; padding-bottom: 10px;}
+.meet_info h3{color: #fff; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 42px; line-height: normal; padding-bottom: 50px;}
+.meet_info p{color: #fff; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 15px; line-height: 24px; padding-bottom: 93px;}
+.countings{display: inline-block; padding-right: 100px;}
+.countings h2{color: #fff; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 57px; line-height: normal; padding-bottom: 10px;}
+.countings h3{color: #fff; font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 17px; line-height: normal;}
+
+
+
+.team_section{padding-top: 90px; padding-bottom: 88px;}
+.team_up{text-align: center;}
+.team_up h2{color: #777; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 16px; line-height: normal; padding-bottom: 10px;}
+.team_up h3{color: #212529; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 32px; line-height: normal;}
+.team{padding-top: 37px;}
+.team_pic img{display: block; max-width: 100%;}
+.team_details{padding-top: 33px; text-align: center;}
+.team_details h2{color: #212529; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 23px; line-height: normal; padding-bottom: 10px; 
+text-transform: capitalize;}
+.team_details h3{color: #777; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 12px; line-height: normal; padding-bottom: 20px;
+text-transform: uppercase;}
+.team_details p{color: #777; font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 14px; line-height: normal; padding-bottom: 100px;}
+.view{text-align: center;}
+.view a{color: #212529; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 12px; line-height: normal; padding: 20px 48px;
+text-decoration: none; text-transform: uppercase; border: 1px solid #ccc; display: inline-block;}
+.view a:hover{color: #fff; background: #023261; border: none;}
+
+
+
+.why_choose_section{background: #ededed; padding-top: 95px; position: relative;}
+.choose_info{text-align: center;}
+.choose_info h2{color: #777; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 16px; line-height: normal; padding-bottom: 10px;}
+.choose_info h3{color: #212529; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 32px; line-height: normal; padding-bottom: 60px;}
+.circle{height: 100px; width: 100px; border-radius: 50%; border: 5px solid #023261; padding: 16px 18px; margin: 0 auto;}
+.circle_info{text-align: center; padding-top: 37px;}
+.circle_info h2{color: #212529; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 25px; line-height: normal; padding-bottom: 20px;
+text-transform: capitalize;}
+.circle_info p{color: #212529; font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 15px; line-height: normal; padding-bottom: 96px;}
+.line1{height: 2px; width: 190px; background: #d6dde5; position: absolute; top: 48%; left: 33%;}
+.line2{height: 2px; width: 190px; background: #d6dde5; position: absolute; top: 48%; left: 57%;}
+
+.investment_details_holder{ position:absolute; top: 50%; transform:translateY(-50%); left:0 ; width: 100%; }
+.investment_section{ position: relative;}
+
+@media only screen and (max-width: 1599px) {
+		.banner_info{top: 26%; left: 11%;}
+		.line1{top: 48%; left: 28%;}
+		.investment_details{padding: 46px 90px;}
+
+	}
+
+
+@media only screen and (max-width: 1299px){
+			.banner_info h2{font-size: 23px;}
+			.banner_info p{font-size: 38px;}
+			.banner_info{top: 26%; left: 11%;}
+			.below_text h2{font-size: 20px;}
+			.get_a_quote{margin-top: 32px;}
+			.icons{top: 15%; left: 0;}
+			.line1{left: 26%; top: 48%;}
+			.line2{top: 48%; left: 58%;}
+			.investment_details h2{padding-bottom: 6px;}
+			.investment_details h3{padding-bottom: 18px;}
+			.investment_details p{padding-bottom: 34px;}
+			.investment_pic{height: 100%;}
+			.investment_pic img{height: 100%; object-fit: cover;}
+			.investment_details{padding: 60px 90px;}
+}
+
+
+
+@media only screen and (max-width: 1199px){
+			.icons{top: 15%;}
+			.col-md-6{width: 100%;}
+			.banner_info{top: 27%; left: 11%;}
+			.meet_proto{padding: 98px 53px;}
+			.meet_counting_all{flex-wrap: wrap; display: flex; justify-content: space-around;}
+			.countings{padding-top: 20px;}
+			.line1{width: 165px; left: 25%;}
+			.line2{width: 165px;}
+			.investment_details{text-align: center;}
+			.investment_details p{font-size: 30px;}
+			.investment_details h2{font-size: 21px; padding-bottom: 18px;}
+			.investment_details a{font-size: 15px;}
+			.investment_details_holder{position: static; transform: none;}
+
+}
+
+
+@media only screen and (max-width: 992px){
+			.icons{top: 15%;}
+			.banner_info{top: 20%;}
+			.banner_info h2{font-size: 21px;}
+			.banner_info p{font-size: 31px;}
+			.below_text p{font-size: 13px;}
+			.below_text h2{font-size: 16px;}
+			.get_a_quote a{padding: 15px 15px;}
+			.get_a_quote{margin-top: 17px;}
+			.meet_counting_all{justify-content: center;}
+			.line1{width: 101px; top: 45%; left: 28%;}
+			.line2{width: 101px; top: 45%; left: 59%;}
+
+
+}
+
+
+@media only screen and (max-width: 768px){
+			.eng_social{justify-content: center;}
+			.header_text h2{padding-bottom: 10px;}
+			.icons{top: 2%;}
+/*			.banner_info{margin-top: 23px;}*/
+			.banner_info{top: 11%}
+			.banner_info h2{font-size: 12px; padding-bottom: 9px;}
+			.banner_info p{font-size: 14px; padding-bottom: 20px;}
+			.banner_info a{padding: 8px 8px; font-size: 10px;}
+			.settings{width: 25px; height: 20px; padding: 2px 6px;}
+			.fa-solid{font-size: 12px;}
+			.below_text p{font-size: 8px;}
+			.below_text h2{font-size: 11px;}
+			.get_a_quote, .below_text{text-align: center;}
+			.get_a_quote a{padding: 8px 8px; font-size: 11px;}
+			.below_banner{padding: 27px 0;}
+			.investment_details{padding: 60px 15px; text-align: center;}
+			.investment_details h2{font-size: 14px;}
+			.investment_details h3{font-size: 23px;}
+			.investment_details p{font-size: 20px; padding-bottom: 45px;}
+			.meet_info h3{font-size: 36px; padding-bottom: 34px;}
+			.meet_proto{padding: 52px 53px;}
+			.countings{padding-right: 0px;}
+			.meet_info p{padding-bottom: 40px;}
+			.team_up{padding: 0 20px;}
+			.team_details p{padding-bottom: 20px;}
+			.circle_info p{padding-bottom: 98px; padding-left: 20px; padding-right: 20px;}
+			.line1{width: 281px; top: 42%; left: 11%;}
+			.line2{width: 281px; top: 69%; left: 14%;}
+			.countings h2{font-size: 49px; padding-bottom: 0px;}
+			.countings h3, .meet_info h2, .team_up h2{padding-bottom: 20px;}
+			.team_section{padding-top: 46px; padding-bottom: 52px;}
+			.view{margin-top: 32px;}
+			.investment_details a{font-size: 13px; padding: 15px 37px;}
+			.investment_details_holder{position: static; transform: none;}
+}
+
+
+
+
+
+
+/*1599  - 1300
+1299  - 1200
+1199  - 992
+991  - 768
+767 - 576
+575/414 - 380
+380 - 322*/
